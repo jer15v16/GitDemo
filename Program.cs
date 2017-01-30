@@ -10,6 +10,10 @@ namespace GitDemo
     {
         static void Main(string[] args)
         {
+            var version = new Version();
+
+            Console.WriteLine(version.GetVersion());
+            Console.ReadLine();
         }
     }
 }

@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace GitDemo
 {
-    class NewClass
+    class Version
     {
+        public string GetVersion()
+        {
+            return "1.0";
+        }
     }
 }
